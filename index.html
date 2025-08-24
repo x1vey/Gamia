@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>8-Bit Game Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>8-Bit Game Platform</h1>
+  <div id="menu">
+    <button onclick="startGame('snake')">Snake</button>
+    <button onclick="startGame('breakout')">Breakout</button>
+    <button onclick="startGame('spaceinvaders')">Space Invaders</button>
+  </div>
+  <canvas id="gameCanvas" width="320" height="320" style="display:none"></canvas>
+  <button id="backBtn" style="display:none" onclick="backToMenu()">Back to Menu</button>
+  <script src="main.js"></script>
+</body>
+</html>
